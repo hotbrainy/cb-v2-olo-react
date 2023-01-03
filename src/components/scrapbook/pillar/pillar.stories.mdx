@@ -1,0 +1,52 @@
+{/* ref: https://www.youtube.com/watch?v=lWk5SntifCU */}
+
+import {ArgsTable}  from '@storybook/addon-docs';
+import {Canvas}     from '@storybook/addon-docs';
+import {Meta}       from '@storybook/addon-docs';
+//import {Preview}    from '@storybook/addon-docs';
+import {Story}      from '@storybook/addon-docs';
+import {withDesign} from 'storybook-addon-designs';
+import Pillar       from './';
+
+import mockImage from './mock/popular.svg';
+
+export const defaultArgs = {
+    id       : 'xyz-000',
+    name     : 'Popular',
+    imageUrl : mockImage,
+    //onSelected  : () => console.log(`SELECT: Mock PIllar: zyz-000`)
+};
+
+<Meta
+    title="Chicken Treat/Components/Pillar"
+    decorators={[withDesign]}
+    component={Pillar}
+    argTypes={{
+        //onClick : {action : 'clicked'},
+        onSelected : {action : 'selected'},
+        id         : {
+            //name        : 'id',
+            description : 'Unique menu category id'
+        }
+    }}
+    args={defaultArgs}
+/>
+
+export const Template = (args) => <Pillar {...args} />;
+export const Default  = Template.bind({});
+
+# Pillar
+
+Let's define a story for our `Pillar` component:
+
+<Canvas>
+    <Story
+        name="Default"
+        args={defaultArgs}
+        parameters={{}}
+    >
+        {Default}
+    </Story>
+</Canvas>
+
+<ArgsTable of={Pillar}/>

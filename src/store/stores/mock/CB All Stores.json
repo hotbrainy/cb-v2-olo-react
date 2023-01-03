@@ -1,0 +1,446 @@
+{
+    "data" : [
+        {
+            "id"         : "c34856a2-58cc-4316-9e92-41ddb99ec150",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T11:50:19.871Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "easterncreekiim4east2342@oporto.com.au.invalid",
+                "storeName"       : "M4",
+                "storePhone"      : "02 8814 8070.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF2342",
+                "locationId"      : "526",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3gr9w956",
+                "lat"             : -33.8015875,
+                "lng"             : 150.8877198
+            }
+        },
+        {
+            "id"         : "494683cd-4a34-4f98-a16b-464f7a97aff7",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T11:51:31.673Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "rosebay2469@oporto.com.au.invalid",
+                "storeName"       : "Rose Bay",
+                "storePhone"      : "02 7923 5746.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF2469",
+                "locationId"      : "552",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3gx63366",
+                "lat"             : -33.8745404,
+                "lng"             : 151.2725792
+            }
+        },
+        {
+            "id"         : "f443a0e2-629d-420a-b579-ec734785f98b",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T10:25:34.706Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "strathfieldplaza2385@oporto.com.au.invalid",
+                "storeName"       : "Strathfield Plaza",
+                "storePhone"      : "02 79235770.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF2385",
+                "locationId"      : "562",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3grq1wez"
+            }
+        },
+        {
+            "id"         : "c830b67b-09a5-4858-a28c-a5960281cc31",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T11:49:59.189Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "deewhy2260@oporto.com.au.invalid",
+                "storeName"       : "Dee Why",
+                "storePhone"      : "02 9982 8993.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF2408",
+                "locationId"      : "496",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3gxfxs1v",
+                "lat"             : -33.7524036,
+                "lng"             : 151.2874757
+            }
+        },
+        {
+            "id"         : "c81337cb-b2e9-4bda-8666-27d63fb0fefc",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T12:58:18.799Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "kingsford2403@oporto.com.au.invalid",
+                "storeName"       : "Kingsford - Transitioned",
+                "storePhone"      : "02 9662 8177.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF2403",
+                "locationId"      : "519",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3gx10zfc",
+                "lat"             : -33.921166,
+                "lng"             : 151.226535
+            }
+        },
+        {
+            "id"         : "8ff72e3a-0dd0-4eee-95df-41c3c92af199",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T10:24:33.686Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "chatswoodchase2311@oporto.com.au.invalid",
+                "storeName"       : "Chatswood Chase",
+                "storePhone"      : "02 7203 5229.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF2311",
+                "locationId"      : "488",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3gx8rfq5"
+            }
+        },
+        {
+            "id"         : "20e3cd2b-de80-4cd3-beb6-e5234d43ceb2",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T11:50:13.549Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "gregoryhills2392@oporto.com.au.invalid",
+                "storeName"       : "Gregory Hills",
+                "storePhone"      : "0426 128 566.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF2392",
+                "locationId"      : "510",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3gnqws8u",
+                "lat"             : -34.0217718,
+                "lng"             : 150.7607481
+            }
+        },
+        {
+            "id"         : "417dfdeb-fd59-47a3-a78e-ea62b8f6d320",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T11:51:20.629Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "chatswoodwestfield2487@oporto.com.au.invalid",
+                "storeName"       : "Chatswood Westfield",
+                "storePhone"      : "02 94112109.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF2487",
+                "locationId"      : "1001",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3gx8r2hj",
+                "lat"             : -33.7973628,
+                "lng"             : 151.1831083
+            }
+        },
+        {
+            "id"         : "15896585-8d28-4ac0-8050-9239619fbf91",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-09-13T04:28:46.814Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "shankar.dupade@fieldko.com",
+                "storeName"       : "Albion Park North - Transitioned",
+                "storePhone"      : "877777778.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "deliverectId"    : "5f109866f3494b8ce30aaa56",
+                "storeNumber"     : "Otest37",
+                "locationId"      : "test",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3g5rm9w0",
+                "lat"             : -34.5536985,
+                "lng"             : 150.7894224
+            }
+        },
+        {
+            "id"         : "a98cedee-e976-43a2-810c-db0e1f1d90a3",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T11:50:27.030Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "marrickville2410@oporto.com.au.invalid",
+                "storeName"       : "Marrickville",
+                "storePhone"      : "02 9569 4706.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF2410",
+                "locationId"      : "531",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3grpdv0s",
+                "lat"             : -33.910568,
+                "lng"             : 151.1569672
+            }
+        },
+        {
+            "id"         : "066abbc8-b1be-49b5-9f89-124fa25d89af",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T11:51:15.589Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "randwick2460@oporto.com.au.invalid",
+                "storeName"       : "Randwick",
+                "storePhone"      : "02 7923 5760.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF2460",
+                "locationId"      : "896",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3gx19czy",
+                "lat"             : -33.9148363,
+                "lng"             : 151.2404833
+            }
+        },
+        {
+            "id"         : "e154d570-8529-48ad-93df-889c624202a4",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T11:50:33.269Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "stleonards2393@oporto.com.au.invalid",
+                "storeName"       : "St Leonards",
+                "storePhone"      : "02 7923 5792.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF2393",
+                "locationId"      : "560",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3gx8d8x7",
+                "lat"             : -33.8229011,
+                "lng"             : 151.1946753
+            }
+        },
+        {
+            "id"         : "1bbb37de-cda8-4e96-9d18-4f357245a2d1",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T10:47:19.900Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "canberradfo2495@oporto.com.au.invalid",
+                "storeName"       : "Canberra DFO",
+                "storePhone"      : "02 6198 8955.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF2495",
+                "locationId"      : "1020",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3dnfxhkv",
+                "lat"             : -35.3366664,
+                "lng"             : 149.1784548
+            }
+        },
+        {
+            "id"         : "2bd4f0d6-1eb9-4529-979a-e9bd01efd8a7",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T11:51:45.209Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "chermside4217@oporto.com.au.invalid",
+                "storeName"       : "Chermside",
+                "storePhone"      : "07 3478 9483.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF4217",
+                "locationId"      : "595",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r7hu4r4dw",
+                "lat"             : -27.3829935,
+                "lng"             : 153.0322839
+            }
+        },
+        {
+            "id"         : "013a16d3-0ce7-40ec-94a1-252f8e66aa87",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T11:52:24.469Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "eastgardens2219@oporto.com.au.invalid",
+                "storeName"       : "Eastgardens",
+                "storePhone"      : "272035252.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF2219",
+                "locationId"      : "501",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3gwchw1h",
+                "lat"             : -33.9448177,
+                "lng"             : 151.2242572
+            }
+        },
+        {
+            "id"         : "6a846121-57bc-435d-bd29-901459a6e50f",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T10:47:12.146Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "toowoomba4241@oporto.com.au.invalid",
+                "storeName"       : "Toowoomba",
+                "storePhone"      : "07 3478 9485.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF4241",
+                "locationId"      : "907",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r7h51dmb6",
+                "lat"             : -27.5852189,
+                "lng"             : 151.9489346
+            }
+        },
+        {
+            "id"         : "acda05d6-47cf-47c6-8a7c-5b29f1f12a1a",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T10:25:55.387Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "bankstownhc2934@oporto.com.au.invalid",
+                "storeName"       : "Bankstown HC",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF2934",
+                "locationId"      : "1120",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3gquwz86"
+            }
+        },
+        {
+            "id"         : "b1839903-3785-4dfa-acc9-526c1a3d9eda",
+            "type"       : "store",
+            "attributes" : {
+                "createdDateTime" : "2022-08-22T10:25:46.708Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "blighpark2481@oporto.com.au.invalid",
+                "storeName"       : "BlighPark",
+                "storePhone"      : "02 7203 5219.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "OF2481",
+                "locationId"      : "968",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r650xm41w"
+            }
+        }
+    ]
+}

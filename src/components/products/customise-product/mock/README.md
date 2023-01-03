@@ -1,0 +1,1 @@
+This folder contains mock data/assets for use by storybook.

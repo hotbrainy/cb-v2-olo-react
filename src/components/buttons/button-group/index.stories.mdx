@@ -1,0 +1,48 @@
+{/* ref: https://www.youtube.com/watch?v=lWk5SntifCU */}
+
+import {ArgsTable}  from '@storybook/addon-docs';
+import {Canvas}     from '@storybook/addon-docs';
+import {Meta}       from '@storybook/addon-docs';
+import {Story}      from '@storybook/addon-docs';
+import {withDesign} from 'storybook-addon-designs';
+import ButtonGroup  from './';
+
+export const defaultArgs = {
+    defaultSelectedId : 'delivery',
+    options           : [
+        {id : 'pickup', title : 'Pickup'},
+        {id : 'delivery', title : 'Delivery'},
+        {id : 'catering', title : 'Catering'}
+    ]
+};
+
+<Meta
+    title="Chicken Treat/Buttons/ButtonGroup"
+    decorators={[withDesign]}
+    component={ButtonGroup}
+    args={defaultArgs}
+/>
+
+export const Template = (args) => <ButtonGroup {...args} />;
+export const Default  = Template.bind({});
+
+# ButtonGroup
+
+Let's define a story for our `ButtonGroup` component:
+
+<Canvas>
+    <Story
+        name="Default"
+        args={defaultArgs}
+        parameters={{
+            design : {
+                type : 'figma',
+                url  : 'https://www.figma.com/file/1HThAFViVYomDz4ElEP1ep/Craveable%3A-Chicken-Treat-Website?node-id=927%3A24105'
+            }
+        }}
+    >
+        {Default}
+    </Story>
+</Canvas>
+
+<ArgsTable of={ButtonGroup}/>

@@ -1,0 +1,47 @@
+{/* ref: https://www.youtube.com/watch?v=lWk5SntifCU */}
+
+import {ArgsTable}  from '@storybook/addon-docs';
+import {Canvas}     from '@storybook/addon-docs';
+import {Meta}       from '@storybook/addon-docs';
+import {Story}      from '@storybook/addon-docs';
+import {withDesign} from 'storybook-addon-designs';
+import HeroBanner   from './';
+
+import heroImage from './mock/wall-art.png';
+
+export const defaultArgs = {
+    imageUrl : heroImage,
+    title    : 'Menu',
+    sx       : {backgroundColor: '#000000'}
+};
+
+<Meta
+    title="Chicken Treat/Banners/HeroBanner"
+    decorators={[withDesign]}
+    component={HeroBanner}
+    args={defaultArgs}
+/>
+
+export const Template = (args) => <HeroBanner {...args} />;
+export const Default  = Template.bind({});
+
+# HeroBanner
+
+Let's define a story for our `HeroBanner` component:
+
+<Canvas>
+    <Story
+        name="Default"
+        args={defaultArgs}
+        parameters={{
+            design : {
+                type : 'figma',
+                url  : 'https://www.figma.com/file/1HThAFViVYomDz4ElEP1ep/Craveable%3A-Chicken-Treat-Website?node-id=927%3A24105'
+            }
+        }}
+    >
+        {Default}
+    </Story>
+</Canvas>
+
+<ArgsTable of={HeroBanner}/>

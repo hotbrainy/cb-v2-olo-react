@@ -1,0 +1,54 @@
+{/* ref: https://www.youtube.com/watch?v=lWk5SntifCU */}
+
+import {ArgsTable}      from '@storybook/addon-docs';
+import {Canvas}         from '@storybook/addon-docs';
+import {Meta}           from '@storybook/addon-docs';
+import {Story}          from '@storybook/addon-docs';
+import {withDesign}     from 'storybook-addon-designs';
+import CustomiseProduct from './';
+
+import mockImage from './mock/CTS2778-eCommMenuImages-Burgers–Individual-TemptaDeluxeBurger.png';
+
+
+export const defaultArgs = {
+    product : {
+        name     : 'Popular',
+        imageUrl : mockImage,
+        price    : 999
+    }
+};
+
+<Meta
+    title="Chicken Treat/Products/CustomiseProduct"
+    decorators={[withDesign]}
+    component={CustomiseProduct}
+    argTypes={{
+        //product : IProduct, // TODO: resolve issue with global types not recognized
+        onClick : {action : 'clicked'}
+    }}
+    args={defaultArgs}
+/>
+
+export const Template = (args) => <CustomiseProduct {...args} />;
+export const Default  = Template.bind({});
+
+# CustomiseProduct
+
+Let's define a story for our `CustomiseProduct` component:
+
+<Canvas>
+    <Story
+        name="Default"
+        args={defaultArgs}
+        parameters={{
+            design : {
+                type : 'figma',
+                url  : 'https://www.figma.com/file/1HThAFViVYomDz4ElEP1ep/Craveable%3A-Chicken-Treat-Website?node-id=2%3A362'
+            }
+        }}
+    >
+        {Default}
+    </Story>
+</Canvas>
+
+<ArgsTable of={CustomiseProduct}/>

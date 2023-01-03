@@ -1,0 +1,53 @@
+{/* ref: https://www.youtube.com/watch?v=lWk5SntifCU */}
+
+import {ArgsTable}   from '@storybook/addon-docs';
+import {Canvas}      from '@storybook/addon-docs';
+import {Meta}        from '@storybook/addon-docs';
+import {Story}       from '@storybook/addon-docs';
+import {withDesign}  from 'storybook-addon-designs';
+import ProductOption from './';
+
+import mockImage from './mock/bun.png';
+
+
+export const defaultArgs = {
+    imageUrl    : mockImage,
+    title       : 'Bread Bun',
+    description : 'Contains gluten',
+    isChecked   : true,
+    sx          : {width : '400px'}
+};
+
+<Meta
+    title="Chicken Treat/Products/ProductOption"
+    decorators={[withDesign]}
+    component={ProductOption}
+    argTypes={{
+        onClick : {action : 'clicked'}
+    }}
+    args={defaultArgs}
+/>
+
+export const Template = (args) => <ProductOption {...args} />;
+export const Default  = Template.bind({});
+
+# ProductOption
+
+Let's define a story for our `ProductOption` component:
+
+<Canvas>
+    <Story
+        name="Default"
+        args={defaultArgs}
+        parameters={{
+            design : {
+                type : 'figma',
+                url  : 'https://www.figma.com/file/1HThAFViVYomDz4ElEP1ep/Craveable%3A-Chicken-Treat-Website?node-id=2%3A362'
+            }
+        }}
+    >
+        {Default}
+    </Story>
+</Canvas>
+
+<ArgsTable of={ProductOption}/>

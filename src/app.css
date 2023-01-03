@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Comic Book';
+    src: url('./assets/fonts/Comic Book/Comic Book.otf') format('opentype');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comic Book';
+    src: url('./assets/fonts/Comic Book/Comic Book Bold.otf') format('opentype');
+    font-display: swap;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comic Book';
+    src: url('./assets/fonts/Comic Book/Comic Book Bold Italic.otf') format('opentype');
+    font-display: swap;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Comic Book';
+    src: url('./assets/fonts/Comic Book/Comic Book Italic.otf') format('opentype');
+    font-display: swap;
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera';
+    src: url('./assets/fonts/CT CERA FONT/CeraPRO-Regular.otf') format('opentype');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera';
+    src: url('./assets/fonts/CT CERA FONT/Cera-Black.otf') format('opentype');
+    font-display: swap;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera';
+    src: url('./assets/fonts/CT CERA FONT/Cera Italic.otf') format('opentype');
+    font-display: swap;
+    font-weight: normal;
+    font-style: italic;
+}
+
+

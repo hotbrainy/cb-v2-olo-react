@@ -1,0 +1,66 @@
+[
+    {
+        "title" : "Our Food",
+        "href"  : "#",
+        "items" : [
+            {
+                "title" : "Menu",
+                "href"  : "/menu"
+            },
+            {
+                "title" : "Catering",
+                "href"  : "/catering"
+            },
+            {
+                "title" : "Nutrition and Allergen",
+                "href"  : "/nutrition-and-allergen"
+            }
+        ]
+    },
+    {
+        "title" : "The Flock",
+        "href"  : "/subscribe",
+        "items" : []
+    },
+    {
+        "title" : "Locations",
+        "href"  : "/locations",
+        "items" : []
+    },
+    {
+        "title" : "Work With Us",
+        "href"  : "#",
+        "items" : [
+            {
+                "title" : "Careers",
+                "href"  : "/careers"
+            },
+            {
+                "title" : "Franchising",
+                "href"  : "/franchising"
+            },
+            {
+                "title" : "Who We Are",
+                "href"  : "/who-we-are"
+            }
+        ]
+    },
+    {
+        "title" : "Stay in Touch",
+        "href"  : "#",
+        "items" : [
+            {
+                "title" : "Feedback",
+                "href"  : "/feedback"
+            },
+            {
+                "title" : "FAQs",
+                "href"  : "/faqs"
+            },
+            {
+                "title" : "Contact Us",
+                "href"  : "/contact-us"
+            }
+        ]
+    }
+]

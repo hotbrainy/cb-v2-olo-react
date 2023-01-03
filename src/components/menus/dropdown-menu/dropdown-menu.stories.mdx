@@ -1,0 +1,48 @@
+{/* ref: https://www.youtube.com/watch?v=lWk5SntifCU */}
+
+import {ArgsTable}  from '@storybook/addon-docs';
+import {Canvas}     from '@storybook/addon-docs';
+import {Meta}       from '@storybook/addon-docs';
+import {Story}      from '@storybook/addon-docs';
+import {withDesign} from 'storybook-addon-designs';
+import DropDownMenu from './';
+import menu         from './mock/menu.json';
+
+export const defaultArgs = {
+    items : menu,
+    sx    : {
+        backgroundColor : 'black',
+        width           : '200px'
+    }
+};
+
+<Meta
+    title="Chicken Treat/Menus/DropDownMenu"
+    decorators={[withDesign]}
+    component={DropDownMenu}
+    args={defaultArgs}
+/>
+
+export const Template = (args) => <DropDownMenu {...args} />;
+export const Default  = Template.bind({});
+
+# DropDownMenu
+
+Let's define a story for our `DropDownMenu` component:
+
+<Canvas>
+    <Story
+        name="Default"
+        args={defaultArgs}
+        parameters={{
+            design : {
+                type : 'figma',
+                url  : 'https://www.figma.com/file/1HThAFViVYomDz4ElEP1ep/Craveable%3A-Chicken-Treat-Website?node-id=927%3A24105'
+            }
+        }}
+    >
+        {Default}
+    </Story>
+</Canvas>
+
+<ArgsTable of={DropDownMenu}/>

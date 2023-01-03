@@ -1,0 +1,20 @@
+[
+    {
+        "id"    : "general",
+        "title" : "General",
+        "items" : [
+            {
+                "title"    : "What are your store opening hours?",
+                "subtitle" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+            },
+            {
+                "title"    : "Who can I contact about donations or sponsorships?",
+                "subtitle" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+            },
+            {
+                "title"    : "Can you send me information for an assignment?",
+                "subtitle" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+            }
+        ]
+    }
+]

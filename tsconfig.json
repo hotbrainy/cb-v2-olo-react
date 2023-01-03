@@ -1,0 +1,22 @@
+{
+    "compilerOptions" : {
+        "outDir"                       : "dist",
+        "target"                       : "ES6",
+        "allowJs"                      : true,
+        "allowSyntheticDefaultImports" : true,
+        "jsx"                          : "react",
+        "lib"                          : [
+            "dom",
+            "esnext"
+        ],
+        "module"                       : "ESNext",
+        "moduleResolution"             : "node",
+        "esModuleInterop"              : true,
+        "noImplicitAny"                : true,
+        "skipLibCheck"                 : true,
+        "sourceMap"                    : true,
+        "strictNullChecks"             : true,
+        "resolveJsonModule"            : true,
+        "baseUrl"                      : "./"
+    }
+}

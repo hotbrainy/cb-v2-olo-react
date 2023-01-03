@@ -1,0 +1,55 @@
+{/* ref: https://www.youtube.com/watch?v=lWk5SntifCU */}
+
+import {ArgsTable}  from '@storybook/addon-docs';
+import {Canvas}     from '@storybook/addon-docs';
+import {Meta}       from '@storybook/addon-docs';
+import {Story}      from '@storybook/addon-docs';
+import {withDesign} from 'storybook-addon-designs';
+import PageFooter   from './';
+import navMenu      from '../mock/nav-menu.json';
+
+import facebookIcon  from '../../../assets/images/figma/icons/facebook-negative.svg';
+import instagramIcon from '../../../assets/images/figma/icons/instagram-negative.svg';
+import twitterIcon   from '../../../assets/images/figma/icons/twitter-negative.svg';
+import youtubeIcon   from '../../../assets/images/figma/icons/youtube-negative.svg';
+
+export const defaultArgs = {
+    navMenu,
+    socialLinks : [
+        {icon : facebookIcon, title : 'Facebook', href : 'https://www.facebook.com/ChickenTreat'},
+        {icon : instagramIcon, title : 'Instagram', href : 'https://www.instagram.com/chickentreat_au'},
+        {icon : twitterIcon, title : 'Twitter', href : 'https://twitter.com/ChickenTreat'},
+        {icon : youtubeIcon, title : 'YouTube', href : 'https://www.youtube.com/channel/UCxekGKrKme0NH_hOCv358_g'},
+    ]
+};
+
+<Meta
+    title="Chicken Treat/PageFooter"
+    decorators={[withDesign]}
+    component={PageFooter}
+    args={defaultArgs}
+/>
+
+export const Template = (args) => <PageFooter {...args} />;
+export const Default  = Template.bind({});
+
+# PageFooter
+
+Let's define a story for our `PageFooter` component:
+
+<Canvas>
+    <Story
+        name="Default"
+        args={defaultArgs}
+        parameters={{
+            design : {
+                type : 'figma',
+                url  : 'https://www.figma.com/file/1HThAFViVYomDz4ElEP1ep/Craveable%3A-Chicken-Treat-Website?node-id=927%3A24105'
+            }
+        }}
+    >
+        {Default}
+    </Story>
+</Canvas>
+
+<ArgsTable of={PageFooter}/>

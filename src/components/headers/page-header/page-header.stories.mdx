@@ -1,0 +1,44 @@
+{/* ref: https://www.youtube.com/watch?v=lWk5SntifCU */}
+
+import {ArgsTable}  from '@storybook/addon-docs';
+import {Canvas}     from '@storybook/addon-docs';
+import {Meta}       from '@storybook/addon-docs';
+import {Story}      from '@storybook/addon-docs';
+import {withDesign} from 'storybook-addon-designs';
+import PageHeader   from './';
+import navMenu      from '../mock/nav-menu.json';
+
+export const defaultArgs = {
+    navMenu
+};
+
+<Meta
+    title="Chicken Treat/PageHeader"
+    decorators={[withDesign]}
+    component={PageHeader}
+    args={defaultArgs}
+/>
+
+export const Template = (args) => <PageHeader {...args} />;
+export const Default  = Template.bind({});
+
+# PageHeader
+
+Let's define a story for our `PageHeader` component:
+
+<Canvas>
+    <Story
+        name="Default"
+        args={defaultArgs}
+        parameters={{
+            design : {
+                type : 'figma',
+                url  : 'https://www.figma.com/file/1HThAFViVYomDz4ElEP1ep/Craveable%3A-Chicken-Treat-Website?node-id=927%3A24105'
+            }
+        }}
+    >
+        {Default}
+    </Story>
+</Canvas>
+
+<ArgsTable of={PageHeader}/>

@@ -1,0 +1,12 @@
+/* Group 1381 */
+
+.pillar {
+    /* Group 1381 */
+    width: 300px;
+    height: 335px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
