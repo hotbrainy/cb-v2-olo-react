@@ -1,0 +1,33 @@
+diff --git a/node_modules/serverless-offline/src/lambda/HttpServer.js b/node_modules/serverless-offline/src/lambda/HttpServer.js
+index eba07a6..e1ad8bf 100644
+--- a/node_modules/serverless-offline/src/lambda/HttpServer.js
++++ b/node_modules/serverless-offline/src/lambda/HttpServer.js
+@@ -2,6 +2,8 @@ import { exit } from 'node:process'
+ import { Server } from '@hapi/hapi'
+ import { log } from '@serverless/utils/log.js'
+ import { invocationsRoute, invokeAsyncRoute } from './routes/index.js'
++import fs from 'fs';
++import path from 'path';
+ 
+ export default class HttpServer {
+   #lambda = null
+@@ -18,9 +20,18 @@ export default class HttpServer {
+ 
+     const serverOptions = {
+       host,
+-      port: lambdaPort,
++      port: lambdaPort
+     }
+ 
++    if (options.httpsProtocol) {
++      serverOptions.tls = {
++        key                : fs.readFileSync(path.resolve(`./${options.httpsProtocol}/key.pem`)),
++        cert               : fs.readFileSync(path.resolve(`./${options.httpsProtocol}/cert.pem`)),
++        rejectUnauthorized : false
++      };
++    }
++
++
+     this.#server = new Server(serverOptions)
+   }
+ 

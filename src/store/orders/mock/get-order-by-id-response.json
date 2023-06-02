@@ -1,0 +1,170 @@
+{
+    "data" : {
+        "type"       : "order",
+        "attributes" : {
+            "data" : {
+                "type"       : "order",
+                "id"         : "dfbe9fa9-b935-4bbe-ad15-dd08487b35b5",
+                "attributes" : {
+                    "id"              : "dfbe9fa9-b935-4bbe-ad15-dd08487b35b5",
+                    "version"         : "2018-02-28",
+                    "status"          : "BASKET_ACCEPTED",
+                    "createdDateTime" : "2023-02-02T05:34:17.000Z",
+                    "updatedDateTime" : "2023-02-02T05:34:55Z",
+                    "channelLinkId"   : "63c649342aee4132c09d7f7f",
+                    "deliverectId"    : "1354-913836-1183",
+                    "prepTimeMinutes" : 10,
+                    "customer"        : {
+                        "id"              : "96fff54a-6b5a-40c3-92a1-fdf01905968d",
+                        "type"            : "Customer|",
+                        "createdDateTime" : "2023-02-02T05:34:17.644Z",
+                        "emailAddress"    : "Daniel@httpcode.com",
+                        "mobile"          : "0422033446",
+                        "firstName"       : "Daniel",
+                        "lastName"        : "Pollard",
+                        "loyalty"         : {
+                            "card"   : "6035650011000070839",
+                            "userId" : "105443212"
+                        },
+                        "address"         : {
+                            "addressComponents" : {
+                                "country"       : {
+                                    "value"     : "AUS",
+                                    "longValue" : "AUSTRALIA"
+                                },
+                                "streetName"    : {
+                                    "value" : "ATCHISON ST"
+                                },
+                                "streetNumber"  : {
+                                    "value" : "2"
+                                },
+                                "streetAddress" : {
+                                    "value" : "2-4 ATCHISON ST"
+                                },
+                                "latitude"      : {
+                                    "value" : -33.82275117
+                                },
+                                "postcode"      : {
+                                    "value" : "2065"
+                                },
+                                "suburb"        : {
+                                    "value" : "ST LEONARDS"
+                                },
+                                "state"         : {
+                                    "value" : "NSW"
+                                },
+                                "longitude"     : {
+                                    "value" : 151.19585657
+                                }
+                            },
+                            "street"            : "ATCHISON ST",
+                            "streetNumber"      : "2",
+                            "postalCode"        : "2065",
+                            "city"              : "ST LEONARDS"
+                        }
+                    },
+                    "store"           : {
+                        "id"      : "7cce171d-65bb-4095-91d9-c930da16af7b",
+                        "address" : {
+                            "addressComponents" : {
+                                "country"      : {
+                                    "value"     : "AUS",
+                                    "longValue" : "Australia"
+                                },
+                                "streetName"   : {
+                                    "value" : "Shop 6 / P3  The Forum  201 Pacific Highway"
+                                },
+                                "unit"         : {
+                                    "value" : null
+                                },
+                                "streetNumber" : {
+                                    "value" : "0"
+                                },
+                                "latitude"     : {
+                                    "value" : -33.8229011
+                                },
+                                "postcode"     : {
+                                    "value" : "2065"
+                                },
+                                "suburb"       : {
+                                    "value" : "St Leonards"
+                                },
+                                "state"        : {
+                                    "value" : "NSW"
+                                },
+                                "floor"        : {
+                                    "value" : null
+                                },
+                                "longitude"    : {
+                                    "value" : 151.1946753
+                                }
+                            }
+                        }
+                    },
+                    "basket"          : {
+                        "type"                  : "COLLECTION",
+                        "referenceId"           : "1354-913836-1183",
+                        "discount"              : 0,
+                        "tax"                   : 0,
+                        "total"                 : 1045,
+                        "asap"                  : true,
+                        "placementDateTime"     : "2023-02-02T05:34:17.003Z",
+                        "dropOffDateTimeOffset" : "+1000",
+                        "notes"                 : "  02/02/2023 15:44 PM",
+                        "items"                 : [
+                            {
+                                "id"          : "P-BO-VksW-32",
+                                "referenceId" : "P-BO-VksW-32",
+                                "name"        : "Bondi Burger Combo Test",
+                                "price"       : 1045,
+                                "quantity"    : 1,
+                                "tax"         : 0,
+                                "total"       : 1045,
+                                "subItems"    : [
+                                    {
+                                        "id"          : "1000108-1-#V0#-",
+                                        "referenceId" : "1000108-1-#V0#-",
+                                        "name"        : "Double Fillet Bondi Burger",
+                                        "price"       : 0,
+                                        "quantity"    : 1,
+                                        "tax"         : 0,
+                                        "total"       : 0,
+                                        "subItems"    : []
+                                    },
+                                    {
+                                        "id"          : "1400242-1-#U#-",
+                                        "referenceId" : "1400242-1-#U#-",
+                                        "name"        : "Single Chips & Diet Coke 600ml",
+                                        "price"       : 775,
+                                        "quantity"    : 1,
+                                        "tax"         : 0,
+                                        "total"       : 775,
+                                        "subItems"    : []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "payment"         : {
+                        "total"    : 1045,
+                        "dateTime" : "2023-02-02T05:34:17.004Z",
+                        "payments" : [
+                            {
+                                "amount"         : 1045,
+                                "type"           : "CREDIT_CARD_TOKEN",
+                                "preauth"        : false,
+                                "paymentDetails" : {
+                                    "cvv"         : "",
+                                    "cardToken"   : "XXXXX",
+                                    "cardTokenId" : "FZ11",
+                                    "customerIp"  : "8.8.8.8"
+                                }
+                            }
+                        ]
+                    },
+                    "delivery"        : {}
+                }
+            }
+        }
+    }
+}

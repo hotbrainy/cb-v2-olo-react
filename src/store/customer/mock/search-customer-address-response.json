@@ -1,0 +1,72 @@
+[
+  {
+    "type": "address",
+    "attributes": {
+      "referenceId": "359 QUEEN ST, BRISBANE CITY QLD 4000",
+      "address": "359 QUEEN ST, BRISBANE CITY QLD 4000"
+    }
+  },
+  {
+    "type": "address",
+    "attributes": {
+      "referenceId": "LEVEL 1 359 QUEEN ST, BRISBANE CITY QLD 4000",
+      "address": "LEVEL 1 359 QUEEN ST, BRISBANE CITY QLD 4000"
+    }
+  },
+  {
+    "type": "address",
+    "attributes": {
+      "referenceId": "LEVEL 2 359 QUEEN ST, BRISBANE CITY QLD 4000",
+      "address": "LEVEL 2 359 QUEEN ST, BRISBANE CITY QLD 4000"
+    }
+  },
+  {
+    "type": "address",
+    "attributes": {
+      "referenceId": "LEVEL 3 359 QUEEN ST, BRISBANE CITY QLD 4000",
+      "address": "LEVEL 3 359 QUEEN ST, BRISBANE CITY QLD 4000"
+    }
+  },
+  {
+    "type": "address",
+    "attributes": {
+      "referenceId": "LEVEL 4 359 QUEEN ST, BRISBANE CITY QLD 4000",
+      "address": "LEVEL 4 359 QUEEN ST, BRISBANE CITY QLD 4000"
+    }
+  },
+  {
+    "type": "address",
+    "attributes": {
+      "referenceId": "LEVEL 5 359 QUEEN ST, BRISBANE CITY QLD 4000",
+      "address": "LEVEL 5 359 QUEEN ST, BRISBANE CITY QLD 4000"
+    }
+  },
+  {
+    "type": "address",
+    "attributes": {
+      "referenceId": "LEVEL 6 359 QUEEN ST, BRISBANE CITY QLD 4000",
+      "address": "LEVEL 6 359 QUEEN ST, BRISBANE CITY QLD 4000"
+    }
+  },
+  {
+    "type": "address",
+    "attributes": {
+      "referenceId": "SHOP 1 359 QUEEN ST, BRISBANE CITY QLD 4000",
+      "address": "SHOP 1 359 QUEEN ST, BRISBANE CITY QLD 4000"
+    }
+  },
+  {
+    "type": "address",
+    "attributes": {
+      "referenceId": "SHOP 2 359 QUEEN ST, BRISBANE CITY QLD 4000",
+      "address": "SHOP 2 359 QUEEN ST, BRISBANE CITY QLD 4000"
+    }
+  },
+  {
+    "type": "address",
+    "attributes": {
+      "referenceId": "SUITE 2 LEVEL 4 359 QUEEN ST, BRISBANE CITY QLD 4000",
+      "address": "SUITE 2 LEVEL 4 359 QUEEN ST, BRISBANE CITY QLD 4000"
+    }
+  }
+]

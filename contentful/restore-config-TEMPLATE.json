@@ -1,0 +1,7 @@
+{
+    "spaceId"         : "<CONTENTFUL_SPACE_ID>",
+    "environmentId"   : "<CONTENTFUL_ENVIRONMENT_ID>",
+    "managementToken" : "<CONTENTFUL_MANAGEMENT_TOKEN>",
+    "contentFile"     : "./contentful/backup/contentful-data.json",
+    "errorLogFile"    : "./contentful/restore-error.log"
+}

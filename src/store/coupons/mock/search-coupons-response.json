@@ -1,0 +1,10 @@
+[
+    {
+        "title": "5 Dollars Off",
+        "code": "5DOLLAR",
+        "minSpend": 1000,
+        "discountType": "Dollar",
+        "amount": 500,
+        "sortOrder": 5
+    }
+]

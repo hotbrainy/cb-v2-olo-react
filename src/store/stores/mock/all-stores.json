@@ -1,0 +1,1699 @@
+{
+    "data" : [
+        {
+            "id"            : "0b6df7d3-9ff1-4db2-b964-3dcdf3883664",
+            "type"          : "store",
+            "attributes"    : {
+                "createdDateTime" : "2022-12-05T01:59:47.110Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "strathfieldplaza2385@oporto.com.au.invalid",
+                "storeName"       : "Strathfield Plaza",
+                "storePhone"      : "02 79235770.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "deliverectId"    : "5f109866f3494b8ce30aaa56",
+                "storeNumber"     : "OF2385",
+                "locationId"      : "562",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3grq1wez",
+                "lat"             : -33.8729366,
+                "lng"             : 151.093249
+            },
+            "relationships" : {
+                "collection"   : {
+                    "data" : {
+                        "id"         : "0b6df7d3-9ff1-4db2-b964-3dcdf3883664",
+                        "type"       : "collection",
+                        "attributes" : {
+                            "createdDateTime" : "2022-12-05T01:59:47.193Z",
+                            "collectionTimes" : [
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "11:45 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Sunday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "11:45 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Saturday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "11:45 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Friday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "11:45 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Thursday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "11:45 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Wednesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "11:45 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Tuesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "11:45 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Monday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "delivery"     : {
+                    "data" : {
+                        "id"         : "0b6df7d3-9ff1-4db2-b964-3dcdf3883664",
+                        "type"       : "delivery",
+                        "attributes" : {
+                            "createdDateTime" : "2022-12-05T01:59:47.192Z",
+                            "deliveryTimes"   : [
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "11:45 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Saturday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "11:45 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Friday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "11:45 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Thursday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "11:45 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Wednesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "11:45 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Tuesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "11:45 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Monday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "11:45 PM",
+                                            "openTime"  : "09:15 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Sunday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "storeAddress" : {
+                    "data" : {
+                        "id"         : "0b6df7d3-9ff1-4db2-b964-3dcdf3883664",
+                        "type"       : "storeAddress",
+                        "attributes" : {
+                            "createdDateTime"   : "2022-12-05T01:59:47.170Z",
+                            "address"           : "un",
+                            "addressComponents" : {
+                                "streetName"   : {
+                                    "value" : "Shop 31  Strathfield Plaza  11 The Boulevarde"
+                                },
+                                "unit"         : {
+                                    "value" : null
+                                },
+                                "streetNumber" : {
+                                    "value" : "0"
+                                },
+                                "postcode"     : {
+                                    "value" : "2135"
+                                },
+                                "suburb"       : {
+                                    "value" : "Strathfield"
+                                },
+                                "state"        : {
+                                    "value" : "NSW"
+                                },
+                                "floor"        : {
+                                    "value" : null
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id"            : "b2d90635-637a-4009-930b-2c64216e30e0",
+            "type"          : "store",
+            "attributes"    : {
+                "createdDateTime" : "2022-11-24T22:20:10.624Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "chatswoodchase2311@oporto.com.au.invalid",
+                "storeName"       : "Chatswood Chase",
+                "storePhone"      : "02 7203 5229.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "deliverectId"    : "5f109866f3494b8ce30aaa56",
+                "storeNumber"     : "OF2311",
+                "locationId"      : "488",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3gx8rfq5",
+                "lat"             : -33.7942587,
+                "lng"             : 151.1861126
+            },
+            "relationships" : {
+                "collection"   : {
+                    "data" : {
+                        "id"         : "b2d90635-637a-4009-930b-2c64216e30e0",
+                        "type"       : "collection",
+                        "attributes" : {
+                            "createdDateTime" : "2022-11-24T22:20:10.705Z",
+                            "collectionTimes" : [
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "06:15 PM",
+                                            "openTime"  : "08:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Sunday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "05:45 PM",
+                                            "openTime"  : "08:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Saturday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "06:00 PM",
+                                            "openTime"  : "08:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Friday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "09:30 PM",
+                                            "openTime"  : "08:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Thursday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "06:00 PM",
+                                            "openTime"  : "08:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Wednesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "06:00 PM",
+                                            "openTime"  : "08:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Tuesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "06:00 PM",
+                                            "openTime"  : "08:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Monday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "delivery"     : {
+                    "data" : {
+                        "id"         : "b2d90635-637a-4009-930b-2c64216e30e0",
+                        "type"       : "delivery",
+                        "attributes" : {
+                            "createdDateTime" : "2022-11-24T22:20:10.704Z",
+                            "deliveryTimes"   : [
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Saturday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Friday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Thursday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Wednesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Tuesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Monday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Sunday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "storeAddress" : {
+                    "data" : {
+                        "id"         : "b2d90635-637a-4009-930b-2c64216e30e0",
+                        "type"       : "storeAddress",
+                        "attributes" : {
+                            "createdDateTime"   : "2022-11-24T22:20:10.645Z",
+                            "address"           : "un",
+                            "addressComponents" : {
+                                "streetName"   : {
+                                    "value" : "Shop B030  Chatswood Chase Shopping Cente  345 Victoria Ave"
+                                },
+                                "unit"         : {
+                                    "value" : null
+                                },
+                                "streetNumber" : {
+                                    "value" : "0"
+                                },
+                                "postcode"     : {
+                                    "value" : "2067"
+                                },
+                                "suburb"       : {
+                                    "value" : "Chatswood"
+                                },
+                                "state"        : {
+                                    "value" : "NSW"
+                                },
+                                "floor"        : {
+                                    "value" : null
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id"            : "2a11bf00-2ff4-4c46-965b-d4581e11a2d6",
+            "type"          : "store",
+            "attributes"    : {
+                "createdDateTime" : "2022-12-05T01:54:33.229Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "deewhy2260@oporto.com.au.invalid",
+                "storeName"       : "Dee Why",
+                "storePhone"      : "02 9982 8993.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "deliverectId"    : "5f109866f3494b8ce30aaa56",
+                "storeNumber"     : "OF2408",
+                "locationId"      : "496",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3gxfxs1v",
+                "lat"             : -33.7524036,
+                "lng"             : 151.2874757
+            },
+            "relationships" : {
+                "collection"   : {
+                    "data" : {
+                        "id"         : "2a11bf00-2ff4-4c46-965b-d4581e11a2d6",
+                        "type"       : "collection",
+                        "attributes" : {
+                            "createdDateTime" : "2022-12-05T01:54:33.468Z",
+                            "collectionTimes" : [
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "08:45 PM",
+                                            "openTime"  : "10:15 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Sunday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "09:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Saturday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "09:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Friday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "09:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Thursday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "09:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Wednesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "09:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Tuesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "09:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Monday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "delivery"     : {
+                    "data" : {
+                        "id"         : "2a11bf00-2ff4-4c46-965b-d4581e11a2d6",
+                        "type"       : "delivery",
+                        "attributes" : {
+                            "createdDateTime" : "2022-12-05T01:54:33.409Z",
+                            "deliveryTimes"   : [
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "09:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Saturday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "09:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Friday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "09:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Thursday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "09:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Wednesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "09:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Tuesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "09:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Monday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "09:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Sunday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "storeAddress" : {
+                    "data" : {
+                        "id"         : "2a11bf00-2ff4-4c46-965b-d4581e11a2d6",
+                        "type"       : "storeAddress",
+                        "attributes" : {
+                            "createdDateTime"   : "2022-12-05T01:54:33.308Z",
+                            "address"           : "un",
+                            "addressComponents" : {
+                                "streetName"   : {
+                                    "value" : "900 Pittwater Road (Cnr Howard Ave)"
+                                },
+                                "unit"         : {
+                                    "value" : null
+                                },
+                                "streetNumber" : {
+                                    "value" : "0"
+                                },
+                                "postcode"     : {
+                                    "value" : "2099"
+                                },
+                                "suburb"       : {
+                                    "value" : "Dee Why"
+                                },
+                                "state"        : {
+                                    "value" : "NSW"
+                                },
+                                "floor"        : {
+                                    "value" : null
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id"            : "f805b2f2-cb8c-468f-a0b0-b78ad6136f52",
+            "type"          : "store",
+            "attributes"    : {
+                "createdDateTime"     : "2022-12-05T02:01:39.552Z",
+                "isEnabled"           : true,
+                "storeEmail"          : "eastgardens2219@oporto.com.au.invalid",
+                "storeName"           : "Eastgardens",
+                "storePhone"          : "272035252.invalid",
+                "timezoneName"        : "Australia/Sydney",
+                "isCollectionEnabled" : true,
+                "tradingHours"        : [],
+                "parkingBays"         : [],
+                "pickupTypes"         : {
+                    "instore"   : true,
+                    "driveThru" : true,
+                    "kerbside"  : false
+                },
+                "deliverectId"        : "60098673a96e1609b07b4c40",
+                "storeNumber"         : "OF2219",
+                "locationId"          : "501",
+                "gsi1pk"              : "Geohash",
+                "gsi1sk"              : "r3gwchw1h",
+                "lat"                 : -33.9448177,
+                "lng"                 : 151.2242572
+            },
+            "relationships" : {
+                "collection"   : {
+                    "data" : {
+                        "id"         : "f805b2f2-cb8c-468f-a0b0-b78ad6136f52",
+                        "type"       : "collection",
+                        "attributes" : {
+                            "createdDateTime" : "2022-12-05T02:01:39.693Z",
+                            "collectionTimes" : [
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "05:45 PM",
+                                            "openTime"  : "09:15 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Sunday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "05:30 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Saturday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "06:30 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Friday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "09:30 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Thursday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "06:30 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Wednesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "06:30 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Tuesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "06:30 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Monday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "delivery"     : {
+                    "data" : {
+                        "id"         : "f805b2f2-cb8c-468f-a0b0-b78ad6136f52",
+                        "type"       : "delivery",
+                        "attributes" : {
+                            "createdDateTime" : "2022-12-05T02:01:39.692Z",
+                            "deliveryTimes"   : [
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Saturday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Friday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Thursday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Wednesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Tuesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Monday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:15 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Sunday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "storeAddress" : {
+                    "data" : {
+                        "id"         : "f805b2f2-cb8c-468f-a0b0-b78ad6136f52",
+                        "type"       : "storeAddress",
+                        "attributes" : {
+                            "createdDateTime"   : "2022-12-05T02:01:39.612Z",
+                            "address"           : "un",
+                            "addressComponents" : {
+                                "streetName"   : {
+                                    "value" : "Shop 269  Westfield Eastgardens  152 Bunnerong Road"
+                                },
+                                "unit"         : {
+                                    "value" : null
+                                },
+                                "streetNumber" : {
+                                    "value" : "0"
+                                },
+                                "postcode"     : {
+                                    "value" : "2036"
+                                },
+                                "suburb"       : {
+                                    "value" : "Eastgardens"
+                                },
+                                "state"        : {
+                                    "value" : "NSW"
+                                },
+                                "floor"        : {
+                                    "value" : null
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id"            : "f68fa4b1-88a1-4437-9a6e-5dcc04fcef0d",
+            "type"          : "store",
+            "attributes"    : {
+                "createdDateTime" : "2022-12-05T01:56:31.331Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "gregoryhills2392@oporto.com.au.invalid",
+                "storeName"       : "Gregory Hills",
+                "storePhone"      : "0426 128 566.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "deliverectId"    : "5f109866f3494b8ce30aaa56",
+                "storeNumber"     : "OF2392",
+                "locationId"      : "510",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3gnqws8u",
+                "lat"             : -34.0217718,
+                "lng"             : 150.7607481
+            },
+            "relationships" : {
+                "collection"   : {
+                    "data" : {
+                        "id"         : "f68fa4b1-88a1-4437-9a6e-5dcc04fcef0d",
+                        "type"       : "collection",
+                        "attributes" : {
+                            "createdDateTime" : "2022-12-05T01:56:31.511Z",
+                            "collectionTimes" : [
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "11:00 PM",
+                                            "openTime"  : "07:45 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Sunday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "11:00 PM",
+                                            "openTime"  : "08:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Saturday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "11:00 PM",
+                                            "openTime"  : "08:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Friday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "11:00 PM",
+                                            "openTime"  : "08:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Thursday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "11:15 PM",
+                                            "openTime"  : "08:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Wednesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "11:00 PM",
+                                            "openTime"  : "08:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Tuesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "11:00 PM",
+                                            "openTime"  : "08:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Monday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "delivery"     : {
+                    "data" : {
+                        "id"         : "f68fa4b1-88a1-4437-9a6e-5dcc04fcef0d",
+                        "type"       : "delivery",
+                        "attributes" : {
+                            "createdDateTime" : "2022-12-05T01:56:31.509Z",
+                            "deliveryTimes"   : [
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Saturday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Friday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Thursday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Wednesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Tuesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Monday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Sunday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "storeAddress" : {
+                    "data" : {
+                        "id"         : "f68fa4b1-88a1-4437-9a6e-5dcc04fcef0d",
+                        "type"       : "storeAddress",
+                        "attributes" : {
+                            "createdDateTime"   : "2022-12-05T01:56:31.410Z",
+                            "address"           : "un",
+                            "addressComponents" : {
+                                "streetName"   : {
+                                    "value" : "Lot 202 Number 3 Lasso Road"
+                                },
+                                "unit"         : {
+                                    "value" : null
+                                },
+                                "streetNumber" : {
+                                    "value" : "0"
+                                },
+                                "postcode"     : {
+                                    "value" : "2570"
+                                },
+                                "suburb"       : {
+                                    "value" : "Gregory Hills"
+                                },
+                                "state"        : {
+                                    "value" : "NSW"
+                                },
+                                "floor"        : {
+                                    "value" : null
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id"            : "4eb97d0f-3e02-4d41-bb29-573d2ad245ef",
+            "type"          : "store",
+            "attributes"    : {
+                "createdDateTime" : "2022-12-05T01:57:18.430Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "marrickville2410@oporto.com.au.invalid",
+                "storeName"       : "Marrickville",
+                "storePhone"      : "02 9569 4706.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "deliverectId"    : "5f109866f3494b8ce30aaa56",
+                "storeNumber"     : "OF2410",
+                "locationId"      : "531",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3grpdv0s",
+                "lat"             : -33.910568,
+                "lng"             : 151.1569672
+            },
+            "relationships" : {
+                "collection"   : {
+                    "data" : {
+                        "id"         : "4eb97d0f-3e02-4d41-bb29-573d2ad245ef",
+                        "type"       : "collection",
+                        "attributes" : {
+                            "createdDateTime" : "2022-12-05T01:57:18.568Z",
+                            "collectionTimes" : [
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "12:00 AM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Sunday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "12:00 AM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Saturday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "12:00 AM",
+                                            "openTime"  : "09:30 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Friday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "12:00 AM",
+                                            "openTime"  : "09:30 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Thursday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "12:00 AM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Wednesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "12:00 AM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Tuesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "12:00 AM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Monday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "delivery"     : {
+                    "data" : {
+                        "id"         : "4eb97d0f-3e02-4d41-bb29-573d2ad245ef",
+                        "type"       : "delivery",
+                        "attributes" : {
+                            "createdDateTime" : "2022-12-05T01:57:18.529Z",
+                            "deliveryTimes"   : [
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Saturday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Friday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Thursday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Wednesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Tuesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Monday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:15 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Sunday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "storeAddress" : {
+                    "data" : {
+                        "id"         : "4eb97d0f-3e02-4d41-bb29-573d2ad245ef",
+                        "type"       : "storeAddress",
+                        "attributes" : {
+                            "createdDateTime"   : "2022-12-05T01:57:18.451Z",
+                            "address"           : "un",
+                            "addressComponents" : {
+                                "streetName"   : {
+                                    "value" : "229 Marrickville Rd"
+                                },
+                                "unit"         : {
+                                    "value" : null
+                                },
+                                "streetNumber" : {
+                                    "value" : "0"
+                                },
+                                "postcode"     : {
+                                    "value" : "2204"
+                                },
+                                "suburb"       : {
+                                    "value" : "Marrickville"
+                                },
+                                "state"        : {
+                                    "value" : "NSW"
+                                },
+                                "floor"        : {
+                                    "value" : null
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id"            : "2bb9a9fa-342b-4189-bd76-fbe9f403596f",
+            "type"          : "store",
+            "attributes"    : {
+                "createdDateTime" : "2023-01-15T08:17:42.587Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "shankar.dupade@fieldko.com",
+                "storeName"       : "Albion Park North - Transitioned",
+                "storePhone"      : "877777778.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "storeNumber"     : "Otest37",
+                "locationId"      : "test",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3g5rm9w0",
+                "lat"             : -34.5536985,
+                "lng"             : 150.7894224
+            },
+            "relationships" : {
+                "collection"   : {
+                    "data" : {
+                        "id"         : "2bb9a9fa-342b-4189-bd76-fbe9f403596f",
+                        "type"       : "collection",
+                        "attributes" : {
+                            "createdDateTime" : "2023-01-15T08:17:42.807Z",
+                            "collectionTimes" : [
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "07:00 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Sunday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "24 Hours",
+                                            "openTime"  : "24 Hours"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Monday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "06:30 PM",
+                                            "openTime"  : "12:30 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Tuesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "24 Hours",
+                                            "openTime"  : "24 Hours"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Wednesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "06:30 PM",
+                                            "openTime"  : "06:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Thursday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "06:30 PM",
+                                            "openTime"  : "08:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Friday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "24 Hours",
+                                            "openTime"  : "24 Hours"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Saturday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "delivery"     : {
+                    "data" : {
+                        "id"         : "2bb9a9fa-342b-4189-bd76-fbe9f403596f",
+                        "type"       : "delivery",
+                        "attributes" : {
+                            "createdDateTime" : "2023-01-15T08:17:42.805Z",
+                            "deliveryTimes"   : [
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "11:45 AM",
+                                            "openTime"  : "10:00 AM"
+                                        },
+                                        {
+                                            "closeTime" : "10:15 PM",
+                                            "openTime"  : "02:30 PM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Sunday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "12:45 PM",
+                                            "openTime"  : "10:00 AM"
+                                        },
+                                        {
+                                            "closeTime" : "10:30 PM",
+                                            "openTime"  : "04:00 PM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Monday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "01:30 PM",
+                                            "openTime"  : "10:00 AM"
+                                        },
+                                        {
+                                            "closeTime" : "10:00 PM",
+                                            "openTime"  : "03:30 PM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Tuesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:30 PM",
+                                            "openTime"  : "10:00 AM"
+                                        },
+                                        {
+                                            "closeTime" : "10:00 PM",
+                                            "openTime"  : "03:30 PM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Wednesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "06:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Thursday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "03:45 PM",
+                                            "openTime"  : "10:15 AM"
+                                        },
+                                        {
+                                            "closeTime" : "10:15 PM",
+                                            "openTime"  : "04:00 PM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Friday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "24 Hours",
+                                            "openTime"  : "24 Hours"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Saturday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "storeAddress" : {
+                    "data" : {
+                        "id"         : "2bb9a9fa-342b-4189-bd76-fbe9f403596f",
+                        "type"       : "storeAddress",
+                        "attributes" : {
+                            "createdDateTime"   : "2023-01-15T08:17:42.684Z",
+                            "address"           : "{\"city\":\"Albion Park\",\"country\":\"Australia\",\"geocodeAccuracy\":null,\"latitude\":null,\"longitude\":null,\"postalCode\":\"2527\",\"state\":\"NSW\",\"street\":\"47 Princes Highway\"}",
+                            "addressComponents" : {
+                                "country"      : {
+                                    "value" : "Australia"
+                                },
+                                "streetName"   : {
+                                    "value" : "47 Princes Highway"
+                                },
+                                "unit"         : {
+                                    "value" : null
+                                },
+                                "streetNumber" : {
+                                    "value" : "0"
+                                },
+                                "postcode"     : {
+                                    "value" : "2527"
+                                },
+                                "suburb"       : {
+                                    "value" : "Albion Park"
+                                },
+                                "state"        : {
+                                    "value" : "NSW"
+                                },
+                                "floor"        : {
+                                    "value" : null
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id"            : "7cce171d-65bb-4095-91d9-c930da16af7b",
+            "type"          : "store",
+            "attributes"    : {
+                "createdDateTime" : "2022-12-05T01:58:37.610Z",
+                "isEnabled"       : true,
+                "storeEmail"      : "stleonards2393@oporto.com.au.invalid",
+                "storeName"       : "St Leonards",
+                "storePhone"      : "02 7923 5792.invalid",
+                "timezoneName"    : "Australia/Sydney",
+                "tradingHours"    : [],
+                "parkingBays"     : [],
+                "pickupTypes"     : {
+                    "instore"   : false,
+                    "kerbside"  : false,
+                    "driveThru" : false
+                },
+                "deliverectId"    : "5f109866f3494b8ce30aaa56",
+                "storeNumber"     : "OF2393",
+                "locationId"      : "560",
+                "gsi1pk"          : "Geohash",
+                "gsi1sk"          : "r3gx8d8x7",
+                "lat"             : -33.8229011,
+                "lng"             : 151.1946753
+            },
+            "relationships" : {
+                "collection"   : {
+                    "data" : {
+                        "id"         : "7cce171d-65bb-4095-91d9-c930da16af7b",
+                        "type"       : "collection",
+                        "attributes" : {
+                            "createdDateTime" : "2022-12-05T01:58:37.729Z",
+                            "collectionTimes" : [
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "09:00 PM",
+                                            "openTime"  : "08:45 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Sunday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "10:00 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Saturday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "11:00 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Friday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "10:00 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Thursday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "10:00 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Wednesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "10:00 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Tuesday"
+                                },
+                                {
+                                    "hours"     : [
+                                        {
+                                            "closeTime" : "10:00 PM",
+                                            "openTime"  : "09:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek" : "Monday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "delivery"     : {
+                    "data" : {
+                        "id"         : "7cce171d-65bb-4095-91d9-c930da16af7b",
+                        "type"       : "delivery",
+                        "attributes" : {
+                            "createdDateTime" : "2022-12-05T01:58:37.712Z",
+                            "deliveryTimes"   : [
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Saturday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Friday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Thursday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Wednesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Tuesday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "10:00 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Monday"
+                                },
+                                {
+                                    "deliveryTimePeriods" : [
+                                        {
+                                            "closeTime" : "02:00 PM",
+                                            "openTime"  : "09:45 AM"
+                                        }
+                                    ],
+                                    "dayOfWeek"           : "Sunday"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "storeAddress" : {
+                    "data" : {
+                        "id"         : "7cce171d-65bb-4095-91d9-c930da16af7b",
+                        "type"       : "storeAddress",
+                        "attributes" : {
+                            "createdDateTime"   : "2022-12-05T01:58:37.690Z",
+                            "address"           : "un",
+                            "addressComponents" : {
+                                "streetName"   : {
+                                    "value" : "Shop 6 / P3  The Forum  201 Pacific Highway"
+                                },
+                                "unit"         : {
+                                    "value" : null
+                                },
+                                "streetNumber" : {
+                                    "value" : "0"
+                                },
+                                "postcode"     : {
+                                    "value" : "2065"
+                                },
+                                "suburb"       : {
+                                    "value" : "St Leonards"
+                                },
+                                "state"        : {
+                                    "value" : "NSW"
+                                },
+                                "floor"        : {
+                                    "value" : null
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

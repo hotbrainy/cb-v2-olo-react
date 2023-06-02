@@ -1,0 +1,27 @@
+/**
+ * Copied from https://images.tst.redrooster.com.au/olo/fz-hpp-v1.css
+ */
+body {
+    margin-top: 50px;
+}
+
+p {
+    display: none;
+}
+
+#pay-now {
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+/**
+ * #################################################################
+ * TODO: remove this... just wanna see if the css is being picked up
+ * #################################################################
+ */
+* {
+    background-color: hotpink;
+}
+/** #################################################################*/
+

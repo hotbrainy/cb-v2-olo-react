@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Our Food",
+    "href": "#",
+    "items": [
+      {
+        "title": "Menu",
+        "href": "/menu"
+      },
+      {
+        "title": "Catering",
+        "href": "/catering"
+      },
+      {
+        "title": "Nutrition and Allergen",
+        "href": "/nutrition-and-allergen"
+      }
+    ]
+  },
+  {
+    "title": "Flame Rewards",
+    "href": "/flame-rewards",
+    "items": []
+  },
+  {
+    "title": "Locations",
+    "href": "/locations",
+    "items": []
+  },
+  {
+    "title": "Work With Us",
+    "href": "#",
+    "items": [
+      {
+        "title": "Careers",
+        "href": "/careers"
+      },
+      {
+        "title": "Franchising",
+        "href": "/franchising"
+      },
+      {
+        "title": "Our Philosophy",
+        "href": "/our-philosophy"
+      }
+    ]
+  },
+  {
+    "title": "Stay in Touch",
+    "href": "#",
+    "items": [
+      {
+        "title": "Feedback",
+        "href": "/feedback"
+      },
+      {
+        "title": "FAQs",
+        "href": "/faqs"
+      },
+      {
+        "title": "Contact Us",
+        "href": "/contact"
+      }
+    ]
+  }
+]

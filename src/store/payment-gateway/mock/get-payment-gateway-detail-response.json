@@ -1,0 +1,5 @@
+{
+    "url"    : "https://gateway.pmnts-sandbox.io/v2/credit_cards/direct/TESTcraveable.json",
+    "path"   : "https://api.tst.oporto.com/mobile-services/customer/fzdata",
+    "status" : "c54d0171d81e759c63fc37fd4dc35bc1"
+}

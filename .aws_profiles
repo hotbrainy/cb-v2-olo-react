@@ -1,0 +1,12 @@
+[default]
+aws_access_key_id=$AWS_ACCESS_KEY_ID
+aws_secret_access_key=$AWS_SECRET_ACCESS_KEY
+[tst-opo]
+role_arn=arn:aws:iam::502025748354:role/dig-opo-tst-cicd-admin
+source_profile=default
+[stg-opo]
+role_arn=arn:aws:iam::535619326251:role/dig-opo-stg-cicd-admin
+source_profile=default
+[prd-opo]
+role_arn=arn:aws:iam::752824223740:role/dig-opo-prd-cicd-admin
+source_profile=default

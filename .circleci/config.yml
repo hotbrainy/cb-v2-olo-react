@@ -1,0 +1,149 @@
+version: 2.1
+
+jobs:
+  build:
+    docker: &docker
+      #- image: circleci/node:dubnium
+      - image: cimg/node:16.18.1
+    steps:
+      - checkout
+      - restore_cache: &restore_cache
+          #key: npm-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json" }}
+          key: npm-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      - run: &npm_install
+          name: Install Serverless CLI and dependencies
+          command: |
+            npm install -g serverless
+            npm install --no-save
+      - run: &setup_aws_credentials
+          name: Setup AWS credentials
+          command: |
+            mkdir -p ~/.aws
+            while read line; do eval echo $line; done < ./.aws_profiles > ~/.aws/credentials
+      - save_cache:
+          #key: npm-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json" }}
+          key: npm-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          paths: [ node_modules ]
+      - run:
+          name: Run Unit Tests
+          command: npm run test:unit
+      - run:
+          name: Serverless Package
+          command: >
+            npm run package --
+            --aws-profile $AWS_PROFILE
+            --stage $STAGE
+      - persist_to_workspace:
+          root: .
+          paths: [ .serverless ]
+
+  deploy:
+    docker: *docker
+    steps:
+      - checkout
+      - restore_cache: *restore_cache
+      - run: *npm_install
+      - run: *setup_aws_credentials
+      - attach_workspace:
+          at: .
+      - store_artifacts:
+          path: .serverless
+      - run:
+          name: Deploy to AWS
+          command: >
+            npm run deploy --
+            --aws-profile $AWS_PROFILE
+            --force
+            --package .serverless
+            --stage $STAGE
+
+  integration_test:
+    docker: *docker
+    steps:
+      - checkout
+      - restore_cache: *restore_cache
+      - run: *npm_install
+      - run: *setup_aws_credentials
+      - run:
+          name: Run integration tests
+          command: npm run test:integration
+
+  e2e_test:
+    docker: *docker
+    steps:
+      - checkout
+      - restore_cache: *restore_cache
+      - run: *npm_install
+      - run: *setup_aws_credentials
+      - run:
+          name: Run E2E Tests
+          command: npm run test:e2e
+
+workflows:
+  version: 2
+  # Test build and deploy for all branches except stg & release related branches
+  dev_build_deploy:
+    jobs:
+      - build:
+          context: dig-tst-opo
+          # NOTE: filter conditions are applied as "OR" not "AND"
+          filters: &filters-tagged-tst
+            branches: { ignore: /.*/ }
+            tags: { only: /^tst-opo-.*$/ }
+      - integration_test:
+          requires: [ build ]
+          context: dig-tst-opo
+          filters: { <<: *filters-tagged-tst }
+      - e2e_test:
+          requires: [ build ]
+          context: dig-tst-opo
+          filters: { <<: *filters-tagged-tst }
+      - deploy:
+          requires:
+            - integration_test
+            - e2e_test
+          context: dig-tst-opo
+          filters: { <<: *filters-tagged-tst }
+
+  # Staging build and deployment for tags that begin with "stg-opo-"
+  stg_build_deploy:
+    jobs:
+      - build:
+          context: dig-stg-opo
+          # NOTE: filter conditions are applied as "OR" not "AND"
+          filters: &filters-tagged-stg
+            branches: { ignore: /.*/ }
+            tags: { only: /^stg-opo-.*$/ }
+      - integration_test:
+          requires: [ build ]
+          context: dig-stg-opo
+          filters: { <<: *filters-tagged-stg }
+      - e2e_test:
+          requires: [ build ]
+          context: dig-stg-opo
+          filters: { <<: *filters-tagged-stg }
+      - deploy:
+          requires:
+            - integration_test
+            - e2e_test
+          context: dig-stg-opo
+          filters: { <<: *filters-tagged-stg }
+
+  # Production build and deployment for tags that begin with "release-opo-"
+  prd_build_approve_deploy_test:
+    jobs:
+      - build:
+          context: dig-prd-opo
+          # NOTE: filter conditions are applied as "OR" not "AND"
+          filters: &filters-tagged-prd
+            branches: { ignore: /.*/ }
+            tags: { only: /^release-opo-.*$/ }
+      - approve:
+          type: approval
+          requires: [ build ]
+          context: dig-prd-opo
+          filters: { <<: *filters-tagged-prd }
+      - deploy:
+          requires: [ approve ]
+          context: dig-prd-opo
+          filters: { <<: *filters-tagged-prd }

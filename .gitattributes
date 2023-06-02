@@ -1,0 +1,16 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Ensure git treats the following files as binary
+#   (don't want git corrupting font files by normalizing LF)
+*.eot binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+
+# Ignore diffs
+package-lock.json -diff
+/test/unit/data -diff
+swagger/api-docs.json binary
+test/mock/**/* -diff
+src/swagger/**/* -diff

@@ -1,0 +1,133 @@
+.container {
+  float: left;
+  position: fixed;
+  height: 700px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -350px;
+  background: #fff;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+}
+.block {
+  float: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+}
+
+.ReactSwipeButton {
+  float: left;
+  width: 100%;
+  height: 75px;
+  position: relative;
+}
+.ReactSwipeButton,
+.ReactSwipeButton * {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    not supported by any browser */
+}
+.rsbContainer {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background: #c4020e;
+  border-radius: 50px;
+  position: relative;
+  /* box-shadow: inset 1px 1px 4px rgba(0,0,0,0.1); */
+  overflow: hidden;
+}
+.rsbContainerUnlocked {
+  width: 50% !important;
+  margin-left: 25%;
+  transition: 0.5s;
+  cursor: default;
+}
+.rsbContainerUnlocked .rsbcSlider {
+  left: 100% !important;
+  cursor: default;
+  pointer-events: none;
+}
+.rsbContainerUnlocked .rsbcSliderArrow {
+  transition: 0.5s;
+  margin-right: -60px;
+}
+.rsbContainerUnlocked .rsbcSliderCircle {
+  transition: 0.5s;
+  margin-right: -60px;
+}
+.rsbcSlider {
+  float: left;
+  width: 100%;
+  position: absolute;
+  height: 75px;
+  top: 0;
+  left: 75px;
+  margin-left: -100%;
+  background: #333;
+  border-radius: 45px;
+  z-index: 100;
+  /* box-shadow: 1px 1px 5px rgba(0,0,0,0.3); */
+  cursor: pointer;
+}
+.rsbcSliderText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 75px;
+  line-height: 70px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 20px;
+}
+.rsbcSliderArrow {
+  float: left;
+  position: absolute;
+  transform: rotate(45deg);
+  border: 2px solid #c4020e;
+  height: 18px;
+  width: 18px;
+  top: 47%;
+  right: 35px;
+  margin-top: -6px;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform-origin: center;
+  z-index: 10;
+}
+.rsbcSliderCircle {
+  position: absolute;
+  right: 0;
+  background: #fff;
+  border: 2px solid #c4020e;
+  top: 0;
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+}
+.rsbcText {
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 75px;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: #fff;
+}
